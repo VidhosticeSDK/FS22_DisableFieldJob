@@ -3,15 +3,21 @@
     <author>VidhosticeSDK, Perak</author>
     <version>1.0.0.0</version>
     <title>
-        <en>DisableFieldJob For Premium DLC</en>
+        <en>Disable Field-Job For Premium DLC</en>
     </title>
 
     <description>
-        <en><![CDATA[
+        <en><![CDATA[This mod disables Premium DLC crops generation on fields (beetroot, carrot, parsnip).
 ]]></en>
-        <de><![CDATA[
+        <de><![CDATA[Dieser Mod deaktiviert die Erzeugung von Premium-DLC-Pflanzen auf Feldern (Rote Bete, Karotte, Pastinaken).
 ]]></de>
-        <cz><![CDATA[
+        <cz><![CDATA[Tento mód vypne na polích generování plodin z Premium DLC (červená řepa, mrkev, pastiňák).
+
+Mód je vhodný pro mapy kde jsou příliš velká pole (rozmanitých tvarů) a zapnutím Premium DLC se tyto plodiny
+objeví na mnoha z nich. Červenou řepu, mrkev, pastiňák si stále můžete dát na vlastní pole.
+
+Pokud mód zapnete v nové hře, nebudou na žadném poli plodiny z Premium DLC.
+V již rozehrané hře bude trvat minimálně jednu sezónu než na polích tyto plodiny uschnou a budou nahrazeny jinými. Po tuto dobu budou stále funkční zakázky na sklízení.
 ]]></cz>
     </description>
 
