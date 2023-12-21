@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="79">
+    <author>VidhosticeSDK, Perak</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>DisableFieldJob For Premium DLC</en>
+    </title>
+
+    <description>
+        <en><![CDATA[
+]]></en>
+        <de><![CDATA[
+]]></de>
+        <cz><![CDATA[
+]]></cz>
+    </description>
+
+    <iconFilename>icon_DisableFieldJob.png</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="DisableFieldJob.lua"/>
+    </extraSourceFiles>
+</modDesc>
