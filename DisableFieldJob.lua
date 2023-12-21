@@ -13,5 +13,5 @@ function FieldJob:loadMap(savegame)
 	end
 end
 
-addModEventListener(FieldJob);
+addModEventListener(FieldJob)
 print("FS22_disableFieldJob 1.0.0.0 loaded.")
