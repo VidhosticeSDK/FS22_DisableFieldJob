@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="79">
-    <author>VidhosticeSDK, Perak</author>
+    <author>VidhosticeSDK</author>
     <version>1.0.0.0</version>
     <title>
-        <en>Disable Field-Job For Premium DLC</en>
+        <en>Disable Crops</en>
+        <de>Verbot der Kulturpflanzen</de>
+        <pl>Zakaz Upraw</pl>
+        <cz>Zakázané Plodiny</cz>
     </title>
 
     <description>
-        <en><![CDATA[This mod disables Premium DLC crops generation on fields (beetroot, carrot, parsnip).
+        <en><![CDATA[This mod will disable the generation of the specified crops from the "Premium Expansion DLC" (beetroot, carrot, parsnip) on unowned fields. It is suitable for maps with too large fields or fields of different shapes. The restriction is not applied to owned fields.
+
+Activation on:
+- New game - no selected crops will be generated on any unowned fields.
+- game in progress - crops already generated on non-owned fields will remain until the end of the season and contracts may be offered for their harvest. If they are not harvested, the crops will wither and will not be generated the following year.
 ]]></en>
-        <de><![CDATA[Dieser Mod deaktiviert die Erzeugung von Premium-DLC-Pflanzen auf Feldern (Rote Bete, Karotte, Pastinaken).
+        <de><![CDATA[Diese Mod schaltet die Erzeugung der angegebenen Feldfrüchte aus dem "Premium Expansion DLC" (Rote Bete, Karotte, Pastinaken) auf unbesetzten Feldern ab. Sie ist geeignet für Karten mit zu großen Feldern oder Feldern mit unterschiedlichen Formen. Die Einschränkung wird nicht auf eigene Felder angewendet.
+
+Aktivierung bei:
+- Neues Spiel - es werden keine ausgewählten Feldfrüchte auf unbesetzten Feldern erzeugt.
+- laufendes Spiel - bereits erzeugte Feldfrüchte auf Feldern, die sich nicht im Besitz des Spielers befinden, bleiben bis zum Ende der Saison erhalten und es können Verträge für deren Ernte angeboten werden. Wenn sie nicht geerntet werden, verdorren die Pflanzen und werden im nächsten Jahr nicht mehr erzeugt.
 ]]></de>
-        <cz><![CDATA[Tento mód vypne na polích generování plodin z Premium DLC (červená řepa, mrkev, pastiňák).
+        <pl><![CDATA[Ten mod wyłączy generowanie określonych upraw z "Premium Expansion DLC" (burak, marchew, pasternak) na niezajętych polach. Jest odpowiedni dla map ze zbyt dużymi polami lub polami o różnych kształtach. Ograniczenie nie dotyczy pól będących własnością.
 
-Mód je vhodný pro mapy kde jsou příliš velká pole (rozmanitých tvarů) a zapnutím Premium DLC se tyto plodiny
-objeví na mnoha z nich. Červenou řepu, mrkev, pastiňák si stále můžete dát na vlastní pole.
+Aktywacja na:
+- Nowa gra - żadne wybrane uprawy nie zostaną wygenerowane na żadnych niezajętych polach.
+- trwającej grze - uprawy już wygenerowane na polach niebędących własnością pozostaną do końca sezonu, a kontrakty mogą być oferowane na ich zebranie. Jeśli plony nie zostaną zebrane, uschną i nie zostaną wygenerowane w następnym roku.
+]]></pl>
+        <cz><![CDATA[Tento mod vypne generování určených plodin z "DLC Premium Expansion" (červená řepa, mrkev, pastiňák) na nevlastněných polích. Je vhodný pro mapy, kde jsou příliš velká pole, nebo pole rozmanitých tvarů. Na vlastněná pole se omezení nevstahuje.
 
-Pokud mód zapnete v nové hře, nebudou na žadném poli plodiny z Premium DLC.
-V již rozehrané hře bude trvat minimálně jednu sezónu než na polích tyto plodiny uschnou a budou nahrazeny jinými. Po tuto dobu budou stále funkční zakázky na sklízení.
+Aktivace při:
+- nová hra - nebudou generovány vybrané plodiny na žádném nevlastněném poli.
+- rozehraná hra - již vygenerované plodiny na nevlastněných polích zůstanou do konce sezóny a mohou být nabízeny zakázky na jejich sklizeň. Pokud se nesklidí, plodiny uvadnou a další rok se již generovat nebudou.
 ]]></cz>
     </description>
 
     <iconFilename>icon_DisableFieldJob.png</iconFilename>
-    <multiplayer supported="true"/>
+    <multiplayer supported="true" />
     <extraSourceFiles>
-        <sourceFile filename="DisableFieldJob.lua"/>
+        <sourceFile filename="DisableFieldJob.lua" />
     </extraSourceFiles>
 </modDesc>
