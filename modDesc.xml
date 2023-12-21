@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="79">
-    <author>VidhosticeSDK</author>
+    <author>VidhosticeSDK, Perak</author>
     <version>1.0.0.0</version>
     <title>
         <en>Disable Crops</en>
@@ -36,9 +36,9 @@ Aktivace při:
 ]]></cz>
     </description>
 
-    <iconFilename>icon_DisableFieldJob.png</iconFilename>
+    <iconFilename>icon_DisableCrops.png</iconFilename>
     <multiplayer supported="true" />
     <extraSourceFiles>
-        <sourceFile filename="DisableFieldJob.lua" />
+        <sourceFile filename="DisableCrops.lua" />
     </extraSourceFiles>
 </modDesc>
