@@ -1,3 +1,3 @@
-# FS22_DisableFieldJob
+# FS22_DisableCrops
 
-![icon_DisableFieldJob](https://github.com/VidhosticeSDK/FS22_DisableFieldJob/assets/106232621/3ca93ea1-407b-4b3f-8224-8f076ea94732)
+![icon_DisableCrops](https://github.com/VidhosticeSDK/FS22_DisableCrops/assets/106232621/fda9cda2-e233-4467-8bde-095e60252587)
