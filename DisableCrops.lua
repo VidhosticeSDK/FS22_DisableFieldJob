@@ -1,5 +1,5 @@
 FieldJob = {
-	debug = true
+	debug = false
 }
 
 function FieldJob:loadMap(savegame)
